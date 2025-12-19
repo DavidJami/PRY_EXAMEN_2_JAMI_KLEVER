@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAMEN SEGUNDO 2 JAMI KLEVER</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <header class="bg-info text-black text-center py-3">
+        <h1>EXAMEN 2 Parcial KLEVER JAMI</h1>
+    </header>
+    <main>
+        
+        
+
+        <div class="container mt-4">
+            <div class="card shadow">
+                <div class="card-header bg-warning text-dark">
+                    <h4>Lista de Tareas</h4>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-hover table-bordered">
+                            <thead class="table-info">
+                                <tr>
+                                    <th scope="col">TAREA</th>
+                                    <th scope="col">ESTADO</th>
+                                </tr>
+
+
+                            </thead>
+                            <tbody id="tabla_tareas">
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    
+                    <div class="d-grid gap-2 mt-1">
+                        <button type="button" id="btn_contar" class="btn btn-warning" width="%50">
+                            CONTAR TAREAS
+                            
+                        </button>
+                    </div>
+                    <div class="mt-3">
+                        <h5 class="bg-info text-black p-2 rounded" id="txt_resultado">Resultados</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-2 mt-4">
+        <p class="mb-0">@KLEVER JAMI 2025</p>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./public/js/tareas.js"></script>
+</body>
+
+</html>

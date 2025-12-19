@@ -1,0 +1,25 @@
+{
+  "name": "pry_examen_2_jami_klever",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000R\u0000Y\u0000_\u0000E\u0000X\u0000A\u0000M\u0000E\u0000N\u0000_\u00002\u0000_\u0000J\u0000A\u0000M\u0000I\u0000_\u0000K\u0000L\u0000E\u0000V\u0000E\u0000R\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidJami/PRY_EXAMEN_2_JAMI_KLEVER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidJami/PRY_EXAMEN_2_JAMI_KLEVER/issues"
+  },
+  "homepage": "https://github.com/DavidJami/PRY_EXAMEN_2_JAMI_KLEVER#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "vite": "^7.3.0"
+  }
+}
